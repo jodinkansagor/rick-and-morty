@@ -5,6 +5,7 @@ export default class Character extends Component {
 
   static propTypes = {
     image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
     idNumber: PropTypes.number.isRequired,
     status: PropTypes.string.isRequired,
     species: PropTypes.string.isRequired,
@@ -14,10 +15,11 @@ export default class Character extends Component {
   }
 
   render() {
-    const { image, idNumber, status, species, gender, origin, lastLocation } = this.props; 
+    const { image, name, idNumber, status, species, gender, origin, lastLocation } = this.props; 
     return (
       <>
-        <image>{image}</image>
+        <img src = {image} />
+        <p>{name}</p>
         <p>id: {idNumber} - created 2 years ago</p>
         <div className="line"><p>STATUS</p><p>{status}</p></div>
         <div className="line"><p>SPECIES</p><p>{species}</p></div>
