@@ -13,7 +13,6 @@ exports[`App component renders App 1`] = `
     species="Cronenberg"
     status="unknown"
   />
-  ;
   <Character
     gender="unknown"
     idNumber={158}
@@ -24,7 +23,6 @@ exports[`App component renders App 1`] = `
     species="Alien, Tuskfish"
     status="Alive"
   />
-  ;
   <Character
     gender="Male"
     idNumber={172}
@@ -35,7 +33,6 @@ exports[`App component renders App 1`] = `
     species="Human"
     status="Alive"
   />
-  ;
   <Character
     gender="Male"
     idNumber={220}
@@ -46,35 +43,45 @@ exports[`App component renders App 1`] = `
     species="Human"
     status="Alive"
   />
-  ;
   <Character
-    gender="male"
-    idNumber={82}
+    gender="Male"
+    idNumber={214}
     image="../../assets/241.jpg"
-    name="Cronenberg Rick"
-    origin="Cronenberg Earth"
-    species="Cronenberg"
-    status="unknown"
+    lastLocation="Earth (Replacement Dimension)"
+    name="Mr. Marklovitz"
+    origin="Earth (C-137)"
+    species="Human"
+    status="Alive"
   />
-  ;
   <Character
-    gender="male"
-    idNumber={82}
-    image="../../assets/82"
-    name="Cronenberg Rick"
-    origin="Cronenberg Earth"
-    species="Cronenberg"
-    status="unknown"
+    gender="Male"
+    idNumber={259}
+    image="../../assets/259.jpg"
+    lastLocation="Earth (Replacement Dimension)"
+    name="Pencilvester"
+    origin="unknown"
+    species="Alien, Parasite, Pencil"
+    status="Dead"
   />
-  ;
   <Character
-    gender="male"
-    idNumber={82}
-    image="../../assets/82"
-    name="Cronenberg Rick"
-    origin="Cronenberg Earth"
-    species="Cronenberg"
-    status="unknown"
+    gender="Male"
+    idNumber={335}
+    image="../../assets/335.jpg"
+    lastLocation="Earth (Replacement Dimension)"
+    name="Steve"
+    origin="Earth (Replacement Dimension)"
+    species="Human"
+    status="Alive"
+  />
+  <Character
+    gender="Female"
+    idNumber={387}
+    image="../../assets/387.jpg"
+    lastLocation="Nuptia 4"
+    name="Zarbadar's Mytholog"
+    origin="Nuptia 4"
+    species="Mytholog"
+    status="unkown"
   />
   ;
   <Footer />
