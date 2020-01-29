@@ -3,87 +3,91 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
-  <Character
-    gender="Male"
-    idNumber={82}
-    image="../../assets/82,jpg"
-    lastLocation="Earth(C-137)"
-    name="Cronenberg Rick"
-    origin="Cronenberg Earth"
-    species="Cronenberg"
-    status="unknown"
-  />
-  <Character
-    gender="unknown"
-    idNumber={158}
-    image="../../assets/158.jpg"
-    lastLocation="Interdimentional Customs"
-    name="Hookah Alien"
-    origin="unknown"
-    species="Alien, Tuskfish"
-    status="Alive"
-  />
-  <Character
-    gender="Male"
-    idNumber={172}
-    image="../../assets/172.jpg"
-    lastLocation="Earth (Replacement Dimension"
-    name="Jamey"
-    origin="Earth (Replacement Dimension"
-    species="Human"
-    status="Alive"
-  />
-  <Character
-    gender="Male"
-    idNumber={220}
-    image="../../assets/220.jpg"
-    lastLocation="Citadel of Rocks"
-    name="Mega Fruit Farmer Rick"
-    origin="unkown"
-    species="Human"
-    status="Alive"
-  />
-  <Character
-    gender="Male"
-    idNumber={214}
-    image="../../assets/241.jpg"
-    lastLocation="Earth (Replacement Dimension)"
-    name="Mr. Marklovitz"
-    origin="Earth (C-137)"
-    species="Human"
-    status="Alive"
-  />
-  <Character
-    gender="Male"
-    idNumber={259}
-    image="../../assets/259.jpg"
-    lastLocation="Earth (Replacement Dimension)"
-    name="Pencilvester"
-    origin="unknown"
-    species="Alien, Parasite, Pencil"
-    status="Dead"
-  />
-  <Character
-    gender="Male"
-    idNumber={335}
-    image="../../assets/335.jpg"
-    lastLocation="Earth (Replacement Dimension)"
-    name="Steve"
-    origin="Earth (Replacement Dimension)"
-    species="Human"
-    status="Alive"
-  />
-  <Character
-    gender="Female"
-    idNumber={387}
-    image="../../assets/387.jpg"
-    lastLocation="Nuptia 4"
-    name="Zarbadar's Mytholog"
-    origin="Nuptia 4"
-    species="Mytholog"
-    status="unkown"
-  />
-  ;
+  <div
+    className="bigDiv"
+  >
+    <Character
+      gender="Male"
+      idNumber={82}
+      image="../../assets/82.jpeg"
+      lastLocation="Earth(C-137)"
+      name="Cronenberg Rick"
+      origin="Cronenberg Earth"
+      species="Cronenberg"
+      status="unknown"
+    />
+    <Character
+      gender="unknown"
+      idNumber={158}
+      image="../../assets/158.jpeg"
+      lastLocation="Interdimentional Customs"
+      name="Hookah Alien"
+      origin="unknown"
+      species="Alien, Tuskfish"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      idNumber={172}
+      image="../../assets/172.jpeg"
+      lastLocation="Earth (Replacement Dimension"
+      name="Jamey"
+      origin="Earth (Replacement Dimension"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      idNumber={220}
+      image="../../assets/220.jpeg"
+      lastLocation="Citadel of Rocks"
+      name="Mega Fruit Farmer Rick"
+      origin="unkown"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      idNumber={214}
+      image="../../assets/241.jpeg"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Mr. Marklovitz"
+      origin="Earth (C-137)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      idNumber={259}
+      image="../../assets/259.jpeg"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Pencilvester"
+      origin="unknown"
+      species="Alien, Parasite, Pencil"
+      status="Dead"
+    />
+    <Character
+      gender="Male"
+      idNumber={335}
+      image="../../assets/335.jpeg"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Steve"
+      origin="Earth (Replacement Dimension)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Female"
+      idNumber={387}
+      image="../../assets/387.jpeg"
+      lastLocation="Nuptia 4"
+      name="Zarbadar's Mytholog"
+      origin="Nuptia 4"
+      species="Mytholog"
+      status="unkown"
+    />
+    ;
+  </div>
   <Footer />
 </Fragment>
 `;
